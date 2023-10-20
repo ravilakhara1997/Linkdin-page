@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navbar>.leftnavbar{
+    padding-left: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar>.leftnavbar>a>img{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+
+.navbar>.leftnavbar>a{
+    margin-left: 10px;
+}
+
+.navbar>.rightnavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar>.rightnavbar>a{
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+.navbar>.rightnavbar>a:last-child{
+    margin-right: 50px;
+}
+
+.container{
+    margin-top: 20px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* align-items: center; */
+}
+
+.container> .leftcontainer{
+    /* background-color: red; */
+    margin-right: 10px;
+    width: 500px;
+}
+.profile{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.profile>img{
+    height: 50%;
+    width: 50%;
+}
+
+.container>.leftcontainer>.profile , .profile1{
+    border: solid rgba(87, 80, 80, 0.603);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container>.leftcontainer>.profile>img{
+    border-radius: 100px;
+    margin-left: 40px;
+}
+
+.connection, .view{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container> .middelcontainer{
+    width: 1500px;
+    /* background-color: rgb(181, 221, 34); */
+    margin-left: 10px;
+}
+
+/* .post{
+    width: 100px;
+} */
+
+.post>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+.post>input{
+    border-radius: 10px;
+    
+}
+
+.post>.posttype{
+    display: flex;
+    
+}
+
+.post>.posttype>p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.post1, .post2{
+    margin-top: 5px;
+}
+
+
+
+.demopost1, .demopost2{
+    display: flex;
+}
+.demopost1>div>img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+.myntra>img{
+    height: 200px;
+    width: 500px;
+    margin-left: 5px;
+}
+.demopost2>div>img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.video{
+    margin-left: 5px;
+
+}
+.container>.rightcontainer{
+    width: 500px;
+    /* background-color: rebeccapurple; */
+    margin-left: 30px;
+}
+
+.container>.rightcontainer>.news,.course,.feedback{
+    border: solid rgba(87, 80, 80, 0.603);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.feedback>.myntra>img{
+    height: 50px;
+    width: 50px;
+}
+
+.feedback>.unilever>img{
+    height: 50px;
+    width: 50px;
+}
+
+.feedback>.linkdin>img{
+    height: 50px;
+    width: 50px;
+}
+
+.unilever,.linkdin,.myntra{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+
+.followers{
+    width: 100px;
+    border-radius: 30px;
+}
